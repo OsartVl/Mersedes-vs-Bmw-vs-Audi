@@ -1,0 +1,123 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input,
+textarea {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+body {
+  background: #0d0d0d;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  transition: 0.4s;
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  color: var(--title-color);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  color: #fff;
+}
+
+/* ================================================= */
+
+.wrapper {
+  background: #0d0d0d;
+}
+.container {
+  max-width: 1013px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0 0 50px 0;
+}
+
+/* =========================== header ========================= */
+
+.content {
+  background: url(../img/Linens\ 1.png) 0 0 / cover no-repeat;
+  width: 100%;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  margin: 25px 0;
+}
+
+.menu__item {
+  display: flex;
+  gap: 50px;
+}
+.active {
+  font-weight: 900;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 478px;
+  margin-bottom: 25px;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 300px;
+  margin-bottom: 25px;
+}
+.h3 {
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 374px;
+  margin-bottom: 25px;
+  color: #949494;
+}
+.main_screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cont__item {
+  z-index: 1;
+}
+.picture:first {
+  margin-right: -100px;
+}
+.cont__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  gap: -80px;
+}
