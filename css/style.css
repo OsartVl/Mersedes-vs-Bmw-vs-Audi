@@ -28,6 +28,7 @@ ul {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
 }
 
@@ -58,66 +59,4 @@ button {
 
 section {
   padding: 0 0 50px 0;
-}
-
-/* =========================== header ========================= */
-
-.content {
-  background: url(../img/Linens\ 1.png) 0 0 / cover no-repeat;
-  width: 100%;
-}
-.menu__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu__list {
-  margin: 25px 0;
-}
-
-.menu__item {
-  display: flex;
-  gap: 50px;
-}
-.active {
-  font-weight: 900;
-}
-
-.h1 {
-  font-weight: 900;
-  font-size: 60px;
-  max-width: 478px;
-  margin-bottom: 25px;
-}
-.h2 {
-  font-weight: 500;
-  font-size: 24px;
-  max-width: 300px;
-  margin-bottom: 25px;
-}
-.h3 {
-  font-weight: 500;
-  font-size: 14px;
-  max-width: 374px;
-  margin-bottom: 25px;
-  color: #949494;
-}
-.main_screen {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.cont__item {
-  z-index: 1;
-}
-.picture:first {
-  margin-right: -100px;
-}
-.cont__photo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 0;
-  gap: -80px;
 }

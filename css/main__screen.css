@@ -1,0 +1,109 @@
+.aside__bar {
+  position: absolute;
+  margin: 127px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.list_item {
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 0;
+}
+.list_item,
+li:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease;
+}
+.content {
+  background: url(../img/Linens\ 1.png) 0 0 / cover no-repeat,
+    url(../img/light.png) 100px 80px / cover no-repeat,
+    url(../img/purpl.png) 0 0 / cover no-repeat;
+  width: 100%;
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__list {
+  margin: 25px 0;
+}
+
+.menu__item {
+  display: flex;
+  gap: 50px;
+}
+.active {
+  font-weight: 900;
+}
+
+.h1 {
+  font-weight: 900;
+  font-size: 60px;
+  max-width: 478px;
+  margin-bottom: 25px;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 24px;
+  max-width: 300px;
+  margin-bottom: 25px;
+}
+.h3 {
+  font-weight: 500;
+  font-size: 14px;
+  max-width: 374px;
+  margin-bottom: 25px;
+  color: #949494;
+}
+.main_screen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cont__item {
+  z-index: 1;
+}
+.pict:nth-child(1) {
+  margin-right: -80px;
+}
+.pict:nth-child(2) {
+  z-index: 1;
+}
+.pict:nth-child(3) {
+  margin-left: -80px;
+  z-index: 0;
+}
+.pict:hover {
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.cont__photo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  gap: -80px;
+}
+.line {
+  width: 1px;
+  height: 120px;
+  background: #fff;
+}
+
+.arrow__down {
+  border: 1px solid #fff;
+  border-radius: 12px;
+  padding: 12px 40px;
+  margin-bottom: 30px;
+}
+
+.arrow__down:hover {
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease;
+}
