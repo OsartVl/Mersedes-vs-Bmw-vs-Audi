@@ -282,4 +282,26 @@ top: 9063px;
 font-size: 16px;
   line-height: 150%;}
 
+.audi_bg{
+  position: absolute;
+width: 1286px;
+height: 485px;
+left: 0px;
+  top: 10493px;}
 
+.audi_bg .container{position: absolute;
+width: 1286px;
+height: 485px;
+left: 0px;
+top: 10493px;
+background: linear-gradient(90deg, #202020 0%, rgba(0, 0, 0, 0.3) 84.81%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/image 20.png);}
+
+.audi_bg .container .container.main_text{
+  position: absolute;
+width: 1013px;
+height: 72px;
+left: 135px;
+top: 10700px;
+
+font-size: 24px;
+line-height: 150%;}
