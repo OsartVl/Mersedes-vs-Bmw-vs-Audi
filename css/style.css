@@ -25,6 +25,8 @@ span {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -59,4 +61,132 @@ button {
 
 section {
   padding: 0 0 50px 0;
+}
+/* ================= cards ========================= */
+.outline {
+  border: 1px solid #fff;
+  padding: 8px 30px !important;
+  border-radius: 10px;
+}
+
+.cars {
+  display: flex;
+  gap: 60px;
+}
+
+.cards li {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.cards li:hover {
+  transform: scale(1.2);
+}
+
+.title_text {
+  text-transform: uppercase;
+  font-size: 16;
+  font-weight: 900;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  text-align: end;
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.box:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============== plashka ====================== */
+
+.plashka__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cyrcle {
+  display: inline-block;
+  padding: 16px 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-weight: 100;
+  font-size: 32px;
+}
+.line__horizontal {
+  width: 530px;
+  height: 1px;
+  background: #fff;
+}
+.cont {
+  position: relative;
+}
+.plashka__text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+/* ===================== bio merc ===================== */
+.bio__merc {
+  background: url(../img/merc_bio.jpg) 0 0 / cover no-repeat;
+  padding: 175px 0;
+}
+.subbtext {
+  max-width: 542px;
+  line-height: 150%;
+}
+.light__text {
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+/* ===================== plashka 2 ========================= */
+.plashka__text2 {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+/* ====================== bmw ================================ */
+.bio__bmw {
+  background: url(../img/BMW__bg.jpg) 0 0 / cover no-repeat;
+  padding: 175px 0;
+}
+
+/* ===================== logo bmw =========================== */
+
+.bmw__logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text_bmw__logo {
+  margin-left: 25px;
+}
+.line_hor {
+  width: 126px;
+  height: 1px;
+  background: #1d30de;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+/* ================ bmw__cards_box ================== */
+
+.bmw__cards_box {
+  display: flex;
+  gap: 30px;
+}
+
+.bmw__cards_box img {
+  object-fit: cover;
 }
