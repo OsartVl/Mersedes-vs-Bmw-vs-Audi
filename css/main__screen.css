@@ -13,10 +13,11 @@
   gap: 15px;
   padding: 0;
 }
-.list_item,
-li:hover {
-  transform: scale(1.2);
+.list_item li {
   transition: all 0.5s ease;
+}
+.list_item li:hover {
+  transform: scale(1.2);
 }
 .content {
   background: url(../img/Linens\ 1.png) 0 0 / cover no-repeat,
@@ -69,6 +70,9 @@ li:hover {
 .cont__item {
   z-index: 1;
 }
+.pict {
+  transition: all 0.5s ease;
+}
 .pict:nth-child(1) {
   margin-right: -80px;
 }
@@ -80,7 +84,6 @@ li:hover {
   z-index: 0;
 }
 .pict:hover {
-  transition: all 0.5s ease;
   transform: scale(1.1);
 }
 .cont__photo {
@@ -101,9 +104,11 @@ li:hover {
   border-radius: 12px;
   padding: 12px 40px;
   margin-bottom: 30px;
+  transition: all 0.5s ease;
 }
 
 .arrow__down:hover {
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.3);
-  transition: all 0.5s ease;
 }
+
+/* =================== cards ===================== */

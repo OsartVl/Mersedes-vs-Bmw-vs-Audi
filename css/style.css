@@ -25,6 +25,8 @@ span {
 }
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -60,6 +62,238 @@ button {
 section {
   padding: 0 0 50px 0;
 }
+
+/* ================= general__information__box ================ */
+
+.general__information__box {
+  display: flex;
+  align-items: center;
+  gap: 75px;
+  margin: 50px 0;
+}
+/* ================= cards ========================= */
+.outline {
+  border: 1px solid #fff;
+  padding: 8px 30px !important;
+  border-radius: 10px;
+}
+
+.cards {
+  background: #161616;
+  padding: 45px 0;
+}
+.cars {
+  display: flex;
+  gap: 60px;
+  background: #161616;
+}
+
+.cards li {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.cards li:hover {
+  transform: scale(1.2);
+}
+
+.title_text {
+  text-transform: uppercase;
+  font-size: 16;
+  font-weight: 900;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.box {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-weight: 900;
+  font-size: 14px;
+  text-align: end;
+  transition: all 0.5s ease;
+  opacity: 0;
+  transform: translateY(20px);
+}
+.box:hover {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============== plashka ====================== */
+
+.plashka__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.cyrcle {
+  display: inline-block;
+  padding: 16px 30px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  font-weight: 100;
+  font-size: 32px;
+}
+.line__horizontal {
+  width: 530px;
+  height: 1px;
+  background: #fff;
+}
+.cont {
+  position: relative;
+}
+.plashka__text {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+/* ===================== merge merc ==================== */
+.craysler {
+  background: url(../img/merge.png) 100% 100% / cover no-repeat;
+  padding: 132px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.photo_craysler_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  text-align: center;
+  line-height: 24px;
+}
+.photo_craysler img {
+  margin-top: 50px;
+  object-fit: cover;
+  width: 529px;
+}
+
+/* ===================== bio merc ===================== */
+.bio__merc {
+  background: url(../img/merc_bio.jpg) 100% 25% / cover no-repeat;
+  padding: 225px 0;
+}
+.subbtext {
+  max-width: 542px;
+  line-height: 150%;
+}
+.light__text {
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+/* ===================== plashka 2 ========================= */
+.plashka__text2 {
+  position: absolute;
+  top: 35%;
+  left: 45%;
+}
+
+/* ====================== bmw ================================ */
+.bio__bmw {
+  background: url(../img/BMW__bg.jpg) 0 0 / cover no-repeat;
+  padding: 175px 0;
+}
+
+/* ===================== logo bmw =========================== */
+
+.bmw__logo__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.text_bmw__logo {
+  margin-left: 25px;
+}
+.line_hor {
+  width: 126px;
+  height: 1px;
+  background: #1d30de;
+  z-index: 1;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+
+/* ================ bmw__cards_box ================== */
+
+.video {
+  margin-bottom: 100px;
+}
+.video_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.text__bmw__video {
+  max-width: 547px;
+  font-weight: 900;
+  font-size: 20px;
+}
+.bmw__cards_box {
+  display: flex;
+  gap: 30px;
+}
+.subbtext__bmw__video {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 15px 0;
+}
+
+.bmw__cards_box img {
+  object-fit: cover;
+}
+.subtext_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 77px;
+  line-height: 150%;
+}
+.video {
+  position: relative;
+}
+.photo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 0;
+}
+.photo img {
+  object-fit: cover;
+  max-width: 90%;
+  margin-top: -100px;
+}
+
+.video_text {
+  margin: 50px 0;
+  max-width: 540px;
+}
+
+.photo_slider {
+  background: #161616;
+  box-shadow: 0 3px 4px #1d30de;
+}
+.photo_slider__img {
+  margin-top: 50px;
+  display: flex;
+  gap: 15px;
+}
+.box_img {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.photo_slider__text {
+  margin: 50px 0;
+}
+
 /* text */
 .first_text{
   background-color: #0A0A0A;
@@ -67,6 +301,74 @@ section {
 }
 .mark{
   color: #D14F3C;
+=======
+.mark {
+  color: #d14f3c;
+}
+
+/* =============== audi ====================== */
+
+.plashka__text3 {
+  position: absolute;
+  left: 40%;
+  top: 35%;
+}
+
+.audi_info {
+  background: url(../img/bio__audi_man.png) 100% 100% / cover no-repeat;
+  padding: 140px;
+}
+.min_text {
+  max-width: 500px;
+  line-height: 150%;
+  margin: 20px 0;
+}
+.line__horizontal3 {
+  width: 307px;
+  height: 2px;
+  background: #5f5f5f;
+}
+.audi_bg {
+  background: url(../img/audi__and__merc.jpg) 0 0 / cover no-repeat;
+  padding: 210px;
+  line-height: 150%;
+}
+
+/* ==================== footer ================== */
+
+.footer_list {
+  display: flex;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #161616;
+  list-style-type: none;
+  gap: 25px;
+}
+.footer_list li {
+  transition: all 0.5s ease;
+}
+.footer_list li:hover {
+  color: #fff;
+}
+.footer {
+  margin: 0;
+  padding: 0;
+}
+.horizontal_line {
+  height: 2px;
+  width: 100%;
+  background: #161616;
+  margin-bottom: 20px;
+}
+
+.text {
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 14px;
+  font-weight: 100;
+
 }
 .main_text{
   text-align: left;
