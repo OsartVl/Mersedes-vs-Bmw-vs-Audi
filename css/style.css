@@ -380,10 +380,10 @@ section {
   
 }
 .second_text{
-  margin-bottom: 50px;
+  margin: 50px 0;
   line-height: 20px;
 }
-/* text */
+
 
 /* logo */
 .mersedes__logo__and__info{
@@ -404,12 +404,10 @@ max-width: 1013px;
 margin-top: 150px;
 margin-left: 135px;
 }
-.text_bio{
+.text_bio {
  margin-left: 135px;
   margin-top: 222px;
   width: 542px;
-
-
 }
  
 .logo__merc{
@@ -432,16 +430,6 @@ top: 0px;
 margin-top: -210px;
 width: 536px;
 height: 60px;
-
-
-}
-.second_text{
-  margin-left: 614px;
-  margin-top: 15px;
-  width: 536px;
-height: 60px;
-
-
 }
 .third_text{
 
@@ -545,11 +533,7 @@ margin-top: 150px;
 
 .photo_audi_3{
   margin-top: 40px;
- 
-
-left: 135px;
-
-
+  left: 135px;
 }
 
 .text_by_audi_5{
@@ -560,5 +544,7 @@ left: 135px;
   
   
 }
-
+.first__text{
+  padding: 50px 0;
+}
 /* photo_audi */
