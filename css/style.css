@@ -295,6 +295,13 @@ section {
 }
 
 /* text */
+.first_text{
+  background-color: #0A0A0A;
+  
+}
+.mark{
+  color: #D14F3C;
+=======
 .mark {
   color: #d14f3c;
 }
@@ -361,4 +368,197 @@ section {
   margin-bottom: 25px;
   font-size: 14px;
   font-weight: 100;
+
 }
+.main_text{
+  text-align: left;
+  margin-top: 50px; 
+  margin-bottom: 25px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19.5px;
+  
+}
+.second_text{
+  margin-bottom: 50px;
+  line-height: 20px;
+}
+/* text */
+
+/* logo */
+.mersedes__logo__and__info{
+  margin-top: -100px;
+  background-color: #0A0A0A;
+}
+.bio_merc{
+background: url(/img/image\ 3.jpg);
+height: 475px;
+margin-left: 100px;
+max-width: 1013px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+}
+.text_bio_merc{
+margin-top: 150px;
+margin-left: 135px;
+}
+.text_bio{
+ margin-left: 135px;
+  margin-top: 222px;
+  width: 542px;
+
+
+}
+ 
+.logo__merc{
+
+
+left: 133px;
+top: 2819px;
+
+}
+.photo_logo{
+
+width: 446px;
+height: 278px;
+left: 0px;
+top: 0px;
+}
+
+.first_text{
+ margin-left: 614px;
+margin-top: -210px;
+width: 536px;
+height: 60px;
+
+
+}
+.second_text{
+  margin-left: 614px;
+  margin-top: 15px;
+  width: 536px;
+height: 60px;
+
+
+}
+.third_text{
+
+
+margin-top: 35px;
+width: 1015px;
+height: 60px;
+
+
+}
+
+/* logo */
+
+
+/* info_about_company */
+
+.more_info_merc{
+  margin-top: -130px;
+  background-color: #0A0A0A;
+}
+
+.photo_company_merc_1{
+  box-sizing: border-box;
+
+width: 369px;
+height: 310px;
+
+
+
+}
+.text_info_merc_1{
+  margin-top: -250px;
+  margin-left: 536px;
+  
+
+
+}
+.text_info_merc_2{
+  width: 700px;
+  height: 144px;
+  margin-left: 536px;
+  box-sizing: border-box;
+}
+
+.photo_company_merc_2{
+  
+margin-left: 723px;
+width: 700px ;
+margin-top: -200px;
+}
+.text_info_merc_3{
+  margin-top: 100px;
+}
+/* info_about_company */
+
+
+/* photo_audi */
+.photo_audi{
+  background-color: #0A0A0A;
+  margin-top: -250pх;
+}
+.photo_audi_1{
+
+
+
+left: 135px;
+
+
+
+}
+.text_by_audi_1{
+  margin-left: 600px;
+  margin-top: -160px;
+}
+
+.text_by_audi_2{
+  margin-top: 150px;
+}
+.photo_audi_2{
+  margin-left: 679px;
+  margin-top: 40px;
+  
+
+
+}
+.text_by_audi_3{
+  width: 467px;
+height: 72px;
+left: 135px;
+margin-top: -175px;
+
+}
+.text_by_audi_4{
+  width: 1013px;
+height: 72px;
+left: 135px;
+
+margin-top: 150px;
+
+}
+
+.photo_audi_3{
+  margin-top: 40px;
+ 
+
+left: 135px;
+
+
+}
+
+.text_by_audi_5{
+  
+  margin-left: 600px;
+  margin-top: -200px;
+  
+  
+  
+}
+
+/* photo_audi */
