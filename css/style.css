@@ -175,8 +175,7 @@ section {
 
 /* ===================== bio merc ===================== */
 .bio__merc {
-  background: url(../img/merc_bio.jpg) 100% 25% / cover no-repeat;
-  padding: 225px 0;
+  background: url(../img/merc_bio.jpg) 0% 0% / cover no-repeat;
 }
 .subbtext {
   max-width: 542px;
@@ -203,6 +202,21 @@ section {
 
 /* ===================== logo bmw =========================== */
 
+.number_one_pic {
+  padding: 210px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../img/Sportcar.jpg) 0 0 / cover no-repeat;
+}
+.center_text2 {
+  text-align: center;
+  max-width: 688px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 33px;
+}
 .bmw__logo__container {
   display: flex;
   align-items: center;
@@ -238,6 +252,7 @@ section {
 }
 .bmw__cards_box {
   display: flex;
+  justify-content: center;
   gap: 30px;
 }
 .subbtext__bmw__video {
@@ -291,17 +306,16 @@ section {
   gap: 15px;
 }
 .photo_slider__text {
-  margin: 50px 0;
+  margin: 50px 0 0 0;
 }
 
 /* text */
-.first_text{
-  background-color: #0A0A0A;
-  
+.first_text {
+  background-color: #0a0a0a;
 }
-.mark{
-  color: #D14F3C;
-=======
+.mark {
+  color: #d14f3c;
+}
 .mark {
   color: #d14f3c;
 }
@@ -368,182 +382,150 @@ section {
   margin-bottom: 25px;
   font-size: 14px;
   font-weight: 100;
-
 }
-.main_text{
-  text-align: left;
-  margin-top: 50px; 
-  margin-bottom: 25px;
+.bold_text {
   font-weight: bold;
+}
+.main_text {
+  text-align: left;
+  margin: 50px 0;
+  font-weight: 400;
   font-size: 16px;
   line-height: 19.5px;
-  
 }
-.second_text{
+.center_text {
+  text-align: center;
+}
+
+.second_text {
   margin: 50px 0;
   line-height: 20px;
 }
 
-
 /* logo */
-.mersedes__logo__and__info{
-  margin-top: -100px;
-  background-color: #0A0A0A;
-}
-.bio_merc{
-background: url(/img/image\ 3.jpg);
-height: 475px;
-margin-left: 100px;
-max-width: 1013px;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
 
+.mersedes__logo__and__info {
+  background: url(/img/image\ 3.jpg) 0 0 / cover no-repeat;
 }
-.text_bio_merc{
-margin-top: 150px;
-margin-left: 135px;
+
+.mercInfo__box {
+  margin: 170px 0;
+}
+.text_bio_merc {
+  font-size: 40px;
+  font-weight: 100;
 }
 .text_bio {
- margin-left: 135px;
-  margin-top: 222px;
-  width: 542px;
-}
- 
-.logo__merc{
-
-
-left: 133px;
-top: 2819px;
-
-}
-.photo_logo{
-
-width: 446px;
-height: 278px;
-left: 0px;
-top: 0px;
+  margin: 25px 0;
+  max-width: 542px;
 }
 
-.first_text{
- margin-left: 614px;
-margin-top: -210px;
-width: 536px;
-height: 60px;
+.logo__merc {
+  left: 133px;
+  top: 2819px;
 }
-.third_text{
+.photo_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px 0;
+}
 
-
-margin-top: 35px;
-width: 1015px;
-height: 60px;
-
-
+.first_text {
+  margin-left: 614px;
+  margin-top: -210px;
+  width: 536px;
+  height: 60px;
+}
+.third_text {
+  margin-top: 35px;
+  width: 1015px;
+  height: 60px;
 }
 
 /* logo */
-
 
 /* info_about_company */
 
-.more_info_merc{
-  margin-top: -130px;
-  background-color: #0A0A0A;
+.more_info_merc__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
+  margin: 50px 0;
 }
-
-.photo_company_merc_1{
+.photo_company_merc_1 {
   box-sizing: border-box;
 
-width: 369px;
-height: 310px;
-
-
-
+  width: 369px;
+  height: 310px;
 }
-.text_info_merc_1{
+.text_info_merc_1 {
   margin-top: -250px;
   margin-left: 536px;
-  
-
-
 }
-.text_info_merc_2{
+.text_info_merc_2 {
   width: 700px;
   height: 144px;
   margin-left: 536px;
   box-sizing: border-box;
 }
 
-.photo_company_merc_2{
-  
-margin-left: 723px;
-width: 700px ;
-margin-top: -200px;
+.photo_company_merc_2 {
+  margin-left: 723px;
+  width: 700px;
+  margin-top: -200px;
 }
-.text_info_merc_3{
+.text_info_merc_3 {
   margin-top: 100px;
 }
 /* info_about_company */
 
-
 /* photo_audi */
-.photo_audi{
-  background-color: #0A0A0A;
-  margin-top: -250pх;
+.photo_audi {
+  margin: 50px 0;
 }
-.photo_audi_1{
-
-
-
-left: 135px;
-
-
-
+.photo_audi_1 {
+  left: 135px;
 }
-.text_by_audi_1{
+.text_by_audi_1 {
   margin-left: 600px;
   margin-top: -160px;
 }
 
-.text_by_audi_2{
+.text_by_audi_2 {
   margin-top: 150px;
 }
-.photo_audi_2{
+.photo_audi_2 {
   margin-left: 679px;
   margin-top: 40px;
-  
-
-
 }
-.text_by_audi_3{
+.text_by_audi_3 {
   width: 467px;
-height: 72px;
-left: 135px;
-margin-top: -175px;
-
+  height: 72px;
+  left: 135px;
+  margin-top: -175px;
 }
-.text_by_audi_4{
-  width: 1013px;
-height: 72px;
-left: 135px;
-
-margin-top: 150px;
-
+.text_by_audi_4 {
+  margin: 40px 0;
 }
 
-.photo_audi_3{
+.photo_audi_3 {
   margin-top: 40px;
   left: 135px;
 }
 
-.text_by_audi_5{
-  
+.text_by_audi_5 {
   margin-left: 600px;
   margin-top: -200px;
-  
-  
-  
 }
-.first__text{
+.first__text {
   padding: 50px 0;
+}
+
+.photo__box_audi {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 77px;
 }
