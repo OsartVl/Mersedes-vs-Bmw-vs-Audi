@@ -222,9 +222,28 @@ section {
 
 /* ================ bmw__cards_box ================== */
 
+.video {
+  margin-bottom: 100px;
+}
+.video_item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+.text__bmw__video {
+  max-width: 547px;
+  font-weight: 900;
+  font-size: 20px;
+}
 .bmw__cards_box {
   display: flex;
   gap: 30px;
+}
+.subbtext__bmw__video {
+  font-size: 14px;
+  font-weight: 100;
+  margin: 15px 0;
 }
 
 .bmw__cards_box img {
